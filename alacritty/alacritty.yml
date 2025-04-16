@@ -1,0 +1,28 @@
+font:
+  size: 14
+  normal:
+    family: "PlemolJP35 Console NF"
+    style: Regular
+  bold:
+    family: "PlemolJP35 Console NF"
+    style: SemiBold
+  italic:
+    family: "PlemolJP35 Console NF"
+    style: Italic
+  bold_italic:
+    family: "PlemolJP35 Console NF"
+    style: SemiBold Italic
+
+
+window:
+  startup_mode: SimpleFullscreen
+  decorations: full
+  opacity: 0.92
+
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux a -t 0 || tmux"
